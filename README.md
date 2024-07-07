@@ -19,7 +19,7 @@ https://responsive-nft-website-master.netlify.app
 ### Take-Screenshot
 https://takescreenshot.netlify.app
 ### Video-sharing-platform
-video-sharing-platform-ui-master.netlify.app
+https://video-sharing-platform-ui-master.netlify.app
 ### Amazon-Clone
 https://amazon-pagee.netlify.app
 ### Rock-Paper-Scissors-Game
