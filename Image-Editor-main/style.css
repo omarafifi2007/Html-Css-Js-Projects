@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    display: flex;
+    background: #333;
+    justify-content: center;
+}
+.Countainer
+{
+    width: 80vw;
+    padding: 20px;
+    display: grid;
+    background: #222;
+    border-radius: 10px;
+    grid-template-columns: 5fr 3fr;
+}
+.Img
+{
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Img img
+{
+    max-width: 45vw;
+    max-height: 60vh;
+}
+.Upload input
+{
+    display: none;
+}
+.Upload label
+{
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 20px;
+    border: 2px #fff dashed;
+}
+.Filters ul, .Filters ul li
+{
+    gap: 30px;
+    display: flex;
+    direction: rtl;
+    list-style: none;
+    flex-direction: column;
+}
+.Filters ul li label
+{
+    color: #fff;
+}
+.Filters ul li:last-child
+{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Filters ul li a, span
+{
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #060;
+}
+@media screen and (max-width: 650px)
+{
+    .Countainer
+    {
+        gap: 50px;
+        grid-template-columns: 1fr;
+    }
+}

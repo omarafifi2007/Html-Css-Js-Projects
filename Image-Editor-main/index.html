@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="">
+        <title>Image Editor</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="keywords" content="Scroll, Making">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Description" content="Best Scrolling for You">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="Countainer">
+            <div class="Img">
+                <div class="Img-Box">
+                    <img id="Img">
+                </div>
+                <div class="Upload">
+                    <label for="Upload">Upload</label>
+                    <input type="file" id="Upload">
+                </div>
+            </div>
+            <div class="Filters">
+                <ul>
+                    <li>
+                        <label for="Saturate">Saturate</label>
+                        <input type="range" id="Saturate" min="0" max="200" value="100">
+                    </li>
+                    <li>
+                        <label for="Contrast">Contrast</label>
+                        <input type="range" id="Contrast" min="0" max="200" value="100">
+                    </li>
+                    <li>
+                        <label for="Brightness">Brightness</label>
+                        <input type="range" id="Brightness" min="0" max="200" value="100">
+                    </li>
+                    <li>
+                        <label for="Sepia">Sepia</label>
+                        <input type="range" id="Sepia" min="0" max="200" value="100">
+                    </li>
+                    <li>
+                        <label for="Grayscale">Grayscale</label>
+                        <input type="range" id="Grayscale" step="0.1" min="0" max="10" value="0">
+                    </li>
+                    <li>
+                        <label for="Blur">Blur</label>
+                        <input type="range" id="Blur" step="0.1" min="0" max="10" value="0">
+                    </li>
+                    <li>
+                        <label for="Hue-Rotate">Hue Rotate</label>
+                        <input type="range" id="Hue-Rotate" min="0" max="350" value="0">
+                    </li>
+                    <li><a download="true" id="Download">Download</a> <span>Reset</span></li>
+                </ul>
+            </div>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
