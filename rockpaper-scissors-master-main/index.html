@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Content">
+        <div class="Text">
+            <div class="Con" style="margin-left: 30px;">
+                <h1>Rock</h1>
+                <h1>Paper</h1>
+                <h1>Scissors</h1>
+            </div>
+            <div class="Score">
+                <h4>Score</h4><br>
+                <h1 id="Score">12</h1>
+            </div>
+        </div>
+        <div id="Image" style="margin-top: 100px;">
+            <div id="Pape">
+                <img src="./img/icon-paper.svg" alt="" id="Paper">
+            </div>
+
+            <div class="Data" style="flex-direction: column; display: flex; align-items: center; justify-content: center;">
+                <h1 style="padding-right: 95px; display: none;" id="Result"></h1>
+                <button id="BTN1">Play Again</button>
+            </div>
+
+            <div id="Compute" style="display: none;">
+                <img src="" alt="" id="Computer">
+            </div>
+
+            <div class="Data" style="flex-direction: column; display: flex; align-items: center; justify-content: center;">
+                <h1 style="padding-inline: 80px; display: none;" id="Result2"></h1>
+                <button id="BTN2">Play Again</button>
+            </div>
+            <div id="Roc">
+                <img src="./img/icon-rock.svg" alt="" id="Rock">
+            </div>
+
+        </div>
+        <div id="Scissors">
+            <img src="./img/icon-scissors.svg" alt="" id="Scissor">
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
