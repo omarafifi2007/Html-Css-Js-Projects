@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Capture ScreenShot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <form action="" class="login-form">
+            <h2>Login</h2>
+            <div class="input-group">
+                <label for="username">UserName</label>
+                <input type="text" id="username" placeholder="Enter username" required autocomplete="off">
+            </div>
+            <div class="input-group">
+                <label for="Pass">Password</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <button id="screenshotBtn">Take ScreenShot</button>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
